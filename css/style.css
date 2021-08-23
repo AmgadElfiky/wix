@@ -9,6 +9,8 @@
     transition: .5s;
 }
 
+
+
 .bg .btn1 .btn:hover {
     background-color: rgb(70, 0, 70);
 }
@@ -28,6 +30,8 @@
     font-size: 70px;
     text-align: center;
 }
+
+
 
 .bg .btn2 .btn {
     position: absolute;
@@ -54,7 +58,6 @@
     color: black;
     font-size: 50px;
     font-weight: bolder;
-    width: 50%;
 }
 
 .part2 .container .row {
