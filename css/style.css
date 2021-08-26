@@ -9,10 +9,23 @@
     transition: .5s;
 }
 
-
+@media screen and (max-width: 540px) {
+    .bg .btn1 .btn {
+        position: absolute;
+        top: 3%;
+        right: 3%;
+        border-radius: 20px;
+        border: 1px solid white;
+        color: white;
+        width: 15%;
+        height: auto;
+        transition: .5s;
+        font-size: 10px;
+    }
+}
 
 .bg .btn1 .btn:hover {
-    background-color: rgb(70, 0, 70);
+    background-color: rgb(70, 0, 70,.5);
 }
 
 .bg .logo img {
@@ -20,6 +33,15 @@
     top: 3%;
     left: 3%;
     width: 10%;
+}
+
+@media screen and (max-width: 540px) {
+    .bg .logo img {
+        position: absolute;
+        top: 3%;
+        left: 3%;
+        width: 20%;
+    }
 }
 
 .bg h1 {
@@ -31,7 +53,16 @@
     text-align: center;
 }
 
-
+@media screen and (max-width: 540px) {
+    .bg h1 {
+        position: absolute;
+        top: 20%;
+        right: 30%;
+        color: snow;
+        font-size: 18px;
+        text-align: center;
+    }
+}
 
 .bg .btn2 .btn {
     position: absolute;
@@ -45,8 +76,23 @@
     transition: .5s;
 }
 
+@media screen and (max-width: 540px) {
+    .bg .btn2 .btn {
+        position: absolute;
+        top: 39%;
+        right: 41%;
+        border-radius: 20px;
+        border: 1px solid white;
+        color: white;
+        font-size: 10px;
+        width: 17%;
+        height:auto;
+        transition: .5s;
+    }
+}
+
 .bg .btn2 .btn:hover {
-    background-color: rgb(189, 0, 126);
+    background-color: rgb(189, 0, 126,.5);
 }
 
 /* part2 */
@@ -67,7 +113,7 @@
 .part2 .btn1 .btn {
     width: 25%;
     border-radius: 20px;
-    height: 70px;
+    height: auto;
     background-color: rgb(255, 115, 64);
     border: 3px solid orange;
     color: white;
@@ -129,7 +175,7 @@
 .product .btn1 .btn {
     width: 25%;
     border-radius: 20px;
-    height: 60px;
+    height: auto;
     background-color: rgb(255, 115, 64);
     border: 3px solid orange;
     color: white;
